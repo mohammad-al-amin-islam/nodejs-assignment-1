@@ -1,6 +1,6 @@
 [
     {
-      "_id": "6337d35aeffe73c1d892cc70",
+      "id": "1",
       "gender": "female",
       "name": "Mcguire Bradley",
       "contact": "+1 (959) 593-2710",
@@ -8,7 +8,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35ab6067a4622d37947",
+      "id": "2",
       "gender": "male",
       "name": "Autumn Walton",
       "contact": "+1 (951) 423-3487",
@@ -16,7 +16,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35aa7879b4ae8753c93",
+      "id": "3",
       "gender": "female",
       "name": "Tiffany Oneal",
       "contact": "+1 (852) 438-2967",
@@ -24,7 +24,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35ac7af9a1807a55ef4",
+      "id": "4",
       "gender": "female",
       "name": "Kemp Holmes",
       "contact": "+1 (831) 594-2922",
@@ -32,7 +32,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35af92422744d9679e0",
+      "id": "5",
       "gender": "male",
       "name": "Snow Chandler",
       "contact": "+1 (882) 468-2193",
@@ -40,7 +40,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35a344a54a1d135ee6a",
+      "id": "6",
       "gender": "male",
       "name": "Frost Underwood",
       "contact": "+1 (944) 512-2129",
@@ -48,7 +48,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35adc6fe73ce6fdabcb",
+      "id": "7",
       "gender": "male",
       "name": "Oneil Black",
       "contact": "+1 (809) 532-2635",
@@ -56,7 +56,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35a86c365adbe751f89",
+      "id": "8",
       "gender": "male",
       "name": "Kerri Clemons",
       "contact": "+1 (897) 528-2078",
@@ -64,7 +64,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35af1ce30a01a011f73",
+      "id": "9",
       "gender": "female",
       "name": "Cristina Hurst",
       "contact": "+1 (816) 571-2029",
@@ -72,7 +72,7 @@
       "photoUrl": "http://placehold.it/32x32"
     },
     {
-      "_id": "6337d35a6c3d6b317682b7e9",
+      "id": "10",
       "gender": "female",
       "name": "Allyson Hess",
       "contact": "+1 (935) 475-3395",

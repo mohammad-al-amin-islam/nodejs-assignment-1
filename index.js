@@ -26,6 +26,20 @@ fs.readFile("data.json", "utf-8", (err, data) => {
     info.push(data);
     res.send(info);
   });
+
+  //update  information
+  app.patch("/user/update/:id", (req, res) => {
+    const id = req.params.id;
+    const data = req.body;
+
+    const result = info.find((single) => single.id === id);
+
+    //update data
+    result.name = data.name;
+    result.address = data.address;
+
+    res.send(result);
+  });
 });
 
 app.get("/", (req, res) => {
