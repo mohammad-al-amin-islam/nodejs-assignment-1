@@ -1,3 +1,4 @@
+const { query } = require("express");
 const express = require("express");
 const app = express();
 const port = 5000;
@@ -39,6 +40,20 @@ fs.readFile("data.json", "utf-8", (err, data) => {
     result.address = data.address;
 
     res.send(result);
+  });
+
+  //updating bulk data
+  app.patch("/user/bulk-update", (req, res) => {
+    const id1 = req.query.id1;
+    const id2 = req.query.id2;
+    const data = req.body;
+    const result = info.find((single) => single.id == id1);
+    const result2 = info.find((single) => single.id == id2);
+
+    result.name = data[0].name;
+    result2.name = data[1].name;
+
+    res.send({ result, result2 });
   });
 });
 
