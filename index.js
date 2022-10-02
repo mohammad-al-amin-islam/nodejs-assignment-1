@@ -1,3 +1,4 @@
+const { query } = require("express");
 const express = require("express");
 const app = express();
 const port = 5000;
@@ -34,7 +35,6 @@ fs.readFile("data.json", "utf-8", (err, data) => {
 
     const result = info.find((single) => single.id === id);
 
-    //update data
     result.name = data.name;
     result.address = data.address;
 
