@@ -1,4 +1,3 @@
-const { query } = require("express");
 const express = require("express");
 const app = express();
 const port = 5000;
@@ -54,6 +53,14 @@ fs.readFile("data.json", "utf-8", (err, data) => {
     result2.name = data[1].name;
 
     res.send({ result, result2 });
+  });
+
+  //delete data;
+  app.delete("/user/delete/:id", (req, res) => {
+    const id = req.params.id;
+    const result = info.filter((single) => single.id != id);
+
+    res.send(result);
   });
 });
 
