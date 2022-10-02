@@ -6,7 +6,7 @@ const fs = require("fs");
 
 app.use(express.json());
 
-fs.readFile("data.json", "utf-8", (err, data) => {
+fs.readFile("./data/data.json", "utf-8", (err, data) => {
   const info = JSON.parse(data);
 
   //get random data
